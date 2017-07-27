@@ -159,8 +159,6 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # COPY nginx.vh.default.conf /etc/nginx/conf.d/default.conf
 COPY static /data/www
 
-#RUN find / -name 'ngx_http_image_filter_module-debug.so'
-
 EXPOSE 5000
 
 STOPSIGNAL SIGTERM
